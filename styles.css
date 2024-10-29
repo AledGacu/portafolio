@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-image: url('logo1.JPG'); 
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.social-icons {
+    display: flex;
+    gap: 15px; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.social-icons img {
+    width: 40px; 
+    transition: filter 0.3s ease; 
+    
+}
+
+.social-icons a:hover img {
+    filter: brightness(0) saturate(100%) invert(60%); 
+}
+
+#cookieConsent {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#acceptCookies {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+
+.card {
+    background-color: #97d0c8;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 20px auto;  
+            width: 80%;
+            max-width: 800px;
+            text-align: justify;
+            
+}
+
+#projects {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.project-card h2 {
+    background-color: white; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    width: 300px; 
+    text-align: left; 
+}
+
+.project-card img {
+    width: 100%; 
+    height: auto; 
+}
+
+.project-card h3 {
+    margin: 15px; 
+    font-size: 1.5em; 
+}
+
+.project-card p {
+    margin: 0 15px 15px; 
+    color: #555; 
+}
+
+
+.skill {
+    margin: 20px 0;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.skill-progress {
+    background-color: #76c7c0;
+    height: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#contact button {
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+#contact button:hover {
+    background-color: #21b300; 
+    transform: scale(1.05); 
+}
+
+#contact button:active {
+    transform: scale(0.95); 
+}
+
+form button {
+    background-color: #76c7c0;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; 
+    border-radius: 5px; 
+}
+.button-submit:hover {
+    background-color: #c44f35; 
+    transform: scale(1.05); 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
